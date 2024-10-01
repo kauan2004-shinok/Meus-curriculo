@@ -7,4 +7,4 @@ Tecnologias:
 </div> <br>
 Curriculo do inicio na tragetória na programação
 
-Link para vizualização - https://curriculum-html.netlify.app/
+<a target=_blank href="https://curriculum-html.netlify.app/"> Link para vizualização </a>
