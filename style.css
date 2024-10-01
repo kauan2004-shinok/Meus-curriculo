@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+
+#header{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 50px;
+    background-color: rgb(88, 107, 246);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#titles{
+    font-family: "monserrat";
+    text-align: center;
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 30% auto;
+    justify-content: space-around;
+    margin: 100px 0px 100px 50px;
+    font-size: 20px;
+}
+
+
+.imagem{
+    width: 20px;
+    margin-right: 15px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+li{
+    list-style: none;
+    margin-top: 15px;
+}
+
+.card{
+    border: 1px solid #bababa;
+    padding: 30px;
+    margin-top: 25px;
+}
+
+#lateral{
+    display: flex; 
+    flex-direction: column;
+    width: 600px;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+li a{
+    color: #222020;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    #header{
+        margin: 15px 0px 0px 10px;
+        width: 95%;
+    }
+
+    #header h2{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    #header h1{
+        font-size: 27px;
+    }
+
+    #container{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    #titles{
+        font-size: 20px;
+    }
+
+    #lateral{
+        width: auto;
+    }
+
+}
+
+
+
